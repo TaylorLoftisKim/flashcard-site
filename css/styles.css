@@ -1,21 +1,29 @@
 .col-md-3 {
   width: 280px;
-  height: 100%;
+  height: 200px;
   margin: 5px;
-  background-color: lightblue;
+  background-color: #63192b
+;
+  overflow: auto;
 }
 .red-background {
   background-color: ##997272;
 
 }
+
+body {
+  background-color: #fffcf2;
+}
+
 .row {
 
 }
 
 
 .panel {
-  background-color: lightblue;
+  background-color: #63192b;
   border: none;
+  color: white;
 }
 h2 {
   font-size: 15px;
@@ -34,12 +42,18 @@ p {
 }
  h2:hover {
    cursor: pointer;
-   color: purple;
+   color: #919191;
    text-decoration: underline;
  }
 
+.well {
+  background-color: #536a70;
+
+}
+
 .well p {
   text-align: center;
+  color: white;
 }
 .well h1 {
   text-align: center;
