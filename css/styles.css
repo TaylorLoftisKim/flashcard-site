@@ -1,5 +1,5 @@
 .col-md-3 {
-  width: 250px;
+  width: 280px;
   height: 100%;
   margin: 5px;
   background-color: lightblue;
@@ -8,6 +8,10 @@
   background-color: ##997272;
 
 }
+.row {
+
+}
+
 
 .panel {
   background-color: lightblue;
@@ -27,4 +31,16 @@ h2 {
 
 p {
   margin-left: 2px;
+}
+ h2:hover {
+   cursor: pointer;
+   color: purple;
+   text-decoration: underline;
+ }
+
+.well p {
+  text-align: center;
+}
+.well h1 {
+  text-align: center;
 }
